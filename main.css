@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+.slide {
+ margin: auto;
+ line-height: 200px;
+ width: 50%;
+ padding: 10px;
+ text-align: center;
+}
+
+.shopping-cart {
+ margin: auto;
+ width: 50%;
+ padding: 10px;
+ text-align: center;
+}
+select {
+
+}
+.app-container {
+height: 500px;
+}
+
+.subtotal {
+width: 400px;
+border: 20px, black;
+}

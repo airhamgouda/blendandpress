@@ -1,0 +1,17 @@
+{
+  "name": "blend-press",
+  "version": "1.0.0",
+  "description": "Client application to manage website state",
+  "main": "index.js)",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Aram Khaled Hammoudeh",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^2.0.2"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.1.0"
+  }
+}
