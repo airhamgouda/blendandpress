@@ -24,7 +24,7 @@ const snippets = (function () {
     <div class="slide w3-animate-opacity">
     <h1>How old are you?</h1>
     <span><select name="age">
-      <option value = "1" >Under 18</option >
+      <option value = "1">Under 18</option >
       <option value="2">18+</option>
     </select></span>
     <input class="w3-button" onclick="nextSlide()" type="submit" value="submit">

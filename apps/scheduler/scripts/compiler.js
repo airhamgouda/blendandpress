@@ -1,18 +1,21 @@
 'use strict';
-/*global $ snippets */
+/*global $ employee snippets */
 
 
 const compiler = (function () {
 
-    const render = function () {
-        $('.employee-list').remove();
-        $('.employee-box').append(employee.finalList);
-        
-    };
+  const render = function () {
+    $('.employee-list').remove();
+    $('.employee-box').append(employee.finalList);
+  };
 
-    return {
-        render
+  setInterval(render(), 5000);
 
-    };
+  console.log(employee);
+
+  return {
+    render
+
+  };
 
 })();
